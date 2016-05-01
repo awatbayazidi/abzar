@@ -1,0 +1,36 @@
+{
+    "name":        "awatbayazidi/abzar",
+    "description": "awatbayazidi support helpers",
+    "keywords":    ["awatbayazidi", "abzar", "support", "laravel"],
+    "homepage":    "https://github.com/awatbayazidi/abzar",
+    "authors": [
+        {
+            "name":     "awatbayazidi",
+            "email":    "awatbayazidi@yahoo.com",
+            "homepage": "https://github.com/awatbayazidi"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php":                   ">=5.5.9",
+        "illuminate/filesystem": "~5.0",
+        "illuminate/support":    "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpcov":        "~2.0",
+        "phpunit/phpunit":       "~4.0|~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AwatBayazidi\\Abzar\\": "src/"
+        },
+        "files": ["helpers.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
