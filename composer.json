@@ -24,8 +24,7 @@
     "autoload": {
         "psr-4": {
             "AwatBayazidi\\Abzar\\": "src/"
-        },
-        "files": ["helpers.php"]
+        }
     },
     "minimum-stability": "stable"
 }
