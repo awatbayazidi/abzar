@@ -1,7 +1,7 @@
 {
     "name":        "awatbayazidi/abzar",
     "description": "awatbayazidi support helpers",
-    "keywords":    ["awatbayazidi", "abzar", "support", "laravel"],
+    "keywords":    ["awatbayazidi"],
     "homepage":    "https://github.com/awatbayazidi/abzar",
     "authors": [
         {
